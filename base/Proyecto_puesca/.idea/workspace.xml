@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="981310b5-db55-4ff6-b6f7-78e2378eaa88" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="ProjectId" id="1aH8pIBOGgsrkO3uDHe33BKxa9C" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/BDD" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\webservices\trunk\Proyecto_puesca\BDD" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="981310b5-db55-4ff6-b6f7-78e2378eaa88" name="Default Changelist" comment="" />
+      <created>1586381339759</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586381339759</updated>
+      <workItem from="1586381346154" duration="1580000" />
+      <workItem from="1586545678097" duration="1680000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2445" y="145" key="#com.intellij.ide.util.MemberChooser" timestamp="1586546627094">
+      <screen x="1920" y="0" width="1440" height="860" />
+    </state>
+    <state x="2445" y="145" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680/1920.0.1440.860@1920.0.1440.860" timestamp="1586546627094" />
+    <state x="2398" y="300" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1586381489932">
+      <screen x="1920" y="0" width="1440" height="860" />
+    </state>
+    <state x="2398" y="300" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.680/1920.0.1440.860@1920.0.1440.860" timestamp="1586381489932" />
+    <state x="2389" y="244" key="NewPhpClassDialog" timestamp="1586382541721">
+      <screen x="1920" y="0" width="1440" height="860" />
+    </state>
+    <state x="2389" y="244" key="NewPhpClassDialog/0.0.1280.680/1920.0.1440.860@1920.0.1440.860" timestamp="1586382541721" />
+    <state x="2474" y="353" key="NewPhpFileDialog" timestamp="1586382619485">
+      <screen x="1920" y="0" width="1440" height="860" />
+    </state>
+    <state x="2474" y="353" key="NewPhpFileDialog/0.0.1280.680/1920.0.1440.860@1920.0.1440.860" timestamp="1586382619485" />
+  </component>
+</project>
