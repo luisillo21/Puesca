@@ -18,14 +18,14 @@ public class DbCliente extends SQLiteOpenHelper {
                 "  clave text NOT NULL," +
                 "nombre text NOT NULL," +
                 "cedula text not null," +
-                "estado text not null," +
-                "id_base integer" +
+                "estado text DEFAULT 'ACTIVO'," +
+                "id_base integer DEFAULT 0" +
                 ")");
         db.execSQL("CREATE TABLE IF NOT EXISTS tipo_servicio (" +
                 "  idtipo_servicio integer PRIMARY KEY  AUTOINCREMENT NOT NULL ," +
                 "  servicio text NOT NULL," +
-                "estado text NOT NULL," +
-                "id_base integer" +
+                "estado text DEFAULT 'ACTIVO'," +
+                "id_base integer DEFAULT 0" +
 
                 ")");
         db.execSQL("CREATE TABLE IF NOT EXISTS persona (" +
@@ -35,10 +35,9 @@ public class DbCliente extends SQLiteOpenHelper {
                 "cedula text NOT NULL," +
                 "provincia text NOT NULL," +
                 "contacto text NOT NULL," +
-                "estado text NOT NULL," +
-                "id_base integer," +
+                "estado text DEFAULT 'ACTIVO'," +
+                "id_base integer DEFAULT 0," +
                 "idtipo integer not null," +
-                "idusuario integer not null," +
                 "FOREIGN KEY (idusuario)REFERENCES usuario(idusuario)," +
                 "FOREIGN KEY(idtipo) REFERENCES tipo_servicio(idtipo_servicio)" +
                 ")");

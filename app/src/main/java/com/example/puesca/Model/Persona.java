@@ -1,6 +1,8 @@
 package com.example.puesca.Model;
 
-public class Persona {
+import java.io.Serializable;
+
+public class Persona implements Serializable {
     public int idpersona;
     public String nombre;
     public String apellido;
@@ -13,7 +15,8 @@ public class Persona {
     public int id_base;
     public int idusuario;
 
-    public Persona(String nombre, String apellido, String cedula, int idtipo, String provincia, String contacto, String fecha_activacion) {
+    public Persona(int idpersona, String nombre, String apellido, String cedula, int idtipo, String provincia, String contacto, String fecha_activacion, String estado) {
+        this.idpersona = idpersona;
         this.nombre = nombre;
         this.apellido = apellido;
         this.cedula = cedula;
@@ -21,6 +24,8 @@ public class Persona {
         this.provincia = provincia;
         this.contacto = contacto;
         this.fecha_activacion = fecha_activacion;
+        this.estado = estado;
+
     }
 
     public String getEstado() {

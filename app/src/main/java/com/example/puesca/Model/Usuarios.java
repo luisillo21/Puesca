@@ -1,6 +1,8 @@
 package com.example.puesca.Model;
 
-public class Usuarios {
+import java.io.Serializable;
+
+public class Usuarios  implements Serializable {
     public int idusuarios;
     public String nombre;
     public String cedula;

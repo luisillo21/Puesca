@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@android:color/background_light"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Actualizar_Cliente_activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="#F7F7F7"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:layout_margin="20dp">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Actualizar Cliente"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_blue_dark"
+            android:ems="10"
+            android:paddingBottom="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="90dp"
+                android:textSize="15sp"
+                android:layout_height="wrap_content"
+                android:ems="20"
+                android:text="Nombre"
+                android:textColor="@color/colorAccent" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editNombre"
+                android:textColor="@android:color/holo_blue_dark"
+                android:inputType="text"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="90dp"
+                android:textSize="15sp"
+                android:layout_height="wrap_content"
+                android:ems="20"
+                android:text="Apellido"
+                android:textColor="@color/colorAccent" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editApellido"
+                android:textColor="@android:color/holo_blue_dark"
+                android:inputType="text"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="90dp"
+                android:textSize="15sp"
+                android:layout_height="wrap_content"
+                android:ems="20"
+                android:text="Cedula"
+                android:textColor="@color/colorAccent" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editCedula"
+                android:textColor="@android:color/holo_blue_dark"
+                android:inputType="text"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/tw_usuario"
+                android:layout_width="90dp"
+                android:textSize="15sp"
+                android:layout_height="wrap_content"
+                android:ems="20"
+                android:text="Servicio"
+                android:textColor="@color/colorAccent" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTipo" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="90dp"
+                android:textSize="15sp"
+                android:layout_height="wrap_content"
+                android:ems="20"
+                android:text="Provincia"
+                android:textColor="@color/colorAccent" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editProvincia"
+                android:textColor="@android:color/holo_blue_dark"
+                android:inputType="text"
+                />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="90dp"
+                android:textSize="15sp"
+                android:layout_height="wrap_content"
+                android:ems="20"
+                android:text="Contacto"
+                android:textColor="@color/colorAccent" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editContacto"
+                android:textColor="@android:color/holo_blue_dark"
+                android:inputType="text"
+                />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="90dp"
+                android:textSize="15sp"
+                android:layout_height="wrap_content"
+                android:ems="20"
+                android:text="Fecha"
+                android:textColor="@color/colorAccent" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editFecha"
+                android:textColor="@android:color/holo_blue_dark"
+                android:inputType="text"
+                />
+
+
+
+        </LinearLayout>
+
+
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_editar"
+            android:text="Actualizar"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimary"
+
+            />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_eliminar"
+            android:text="Eliminar"
+            android:textColor="@android:color/white"
+            android:background="@android:color/holo_red_dark"
+
+            />
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/etaTipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:visibility="invisible"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white" />
+
+
+    <TextView
+        android:id="@+id/etActivityTipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white" />
+
+
+</LinearLayout>

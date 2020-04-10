@@ -28,7 +28,7 @@ public class PersonaDao {
         valores.put("contacto",persona.getCedula());
         valores.put("estado","ACTIVO");
         valores.put("idtipo",persona.getIdtipo());
-        valores.put("idusuario",persona.getIdpersona());
+        valores.put("id_base",persona.getId_base());
         this.db.insert("persona",null,valores);
         this.db.close();
     }
